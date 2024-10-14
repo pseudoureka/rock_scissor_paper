@@ -1,7 +1,7 @@
 import { useState } from "react";
+import { compareHand, generateRandomHand } from "./utils";
 import Button from "./Button";
 import HandButton from "./HandButton";
-import { compareHand, generateRandomHand } from "./utils";
 import HandIcon from "./HandIcon";
 
 function getResult(me, other) {
